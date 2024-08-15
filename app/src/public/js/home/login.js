@@ -20,5 +20,5 @@ function login() {
         body : JSON.stringify(req)
     })
     .then((res) => res.json())
-    .then((res) => console.log(res))
+    .then((res) => {}) 
 }
